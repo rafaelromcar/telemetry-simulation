@@ -1,0 +1,280 @@
+!SESSION 2010-06-01 19:07:41.059 -----------------------------------------------
+eclipse.buildId=I20080617-2000
+java.version=1.6.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.engine 4 0 2010-06-01 19:07:45.683
+!MESSAGE Error parsing profile D:\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\PlatformProfile.profile\1238439826078.profile.
+!STACK 0
+java.io.IOException: XML document structures must start and end within the same entity.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:459)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:445)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.restore(SimpleProfileRegistry.java:337)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:223)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:180)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:171)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.getCurrentProfile(Activator.java:610)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:147)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:1009)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:1003)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:984)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:346)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:355)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1074)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:616)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:508)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:299)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:489)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:211)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:321)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 0 2010-06-01 19:07:45.923
+!MESSAGE Error parsing profile D:\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\PlatformProfile.profile\1238439826078.profile.
+!STACK 0
+java.io.IOException: XML document structures must start and end within the same entity.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:459)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:445)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.restore(SimpleProfileRegistry.java:337)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:223)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:180)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:171)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.createProfile(SurrogateProfileHandler.java:145)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.createSurrogateProfile(SimpleProfileRegistry.java:191)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:182)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:171)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.getCurrentProfile(Activator.java:610)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:147)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:1009)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:1003)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:984)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:346)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:355)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1074)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:616)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:508)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:299)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:489)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:211)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:321)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.357
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.358
+!MESSAGE Conflict for 'com.soyatec.uml.project.open1':
+HandlerActivation(commandId=com.soyatec.uml.project.open1,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.uml.project.OpenDiagramAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=com.soyatec.uml.project.open1,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.uml.project.OpenUnuesdDependenciesDiagramAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.358
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.menu.data.refresh/com.soyatec.database.menu.data.action.refresh':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.data.refresh/com.soyatec.database.menu.data.action.refresh,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseRefreshAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.data.refresh/com.soyatec.database.menu.data.action.refresh,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseRefreshAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.358
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.hibernate.mapping.import.action/com.soyatec.database.menu.hibernate.mapping.action.import':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.hibernate.mapping.import.action/com.soyatec.database.menu.hibernate.mapping.action.import,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseHibernateMappingImportAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.hibernate.mapping.import.action/com.soyatec.database.menu.hibernate.mapping.action.import,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseHibernateMappingImportAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.358
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.hibernate.classes.generation/com.soyatec.database.menu.hibernate.action.classes.generation':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.hibernate.classes.generation/com.soyatec.database.menu.hibernate.action.classes.generation,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseHibernateClassesGenerationAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.hibernate.classes.generation/com.soyatec.database.menu.hibernate.action.classes.generation,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseHibernateClassesGenerationAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.358
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.menu.schema.reverse/com.soyatec.database.menu.schema.action.reverse':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.schema.reverse/com.soyatec.database.menu.schema.action.reverse,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseReverseAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.schema.reverse/com.soyatec.database.menu.schema.action.reverse,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseReverseAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.358
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.menu.schema.modification/com.soyatec.database.menu.schema.action.modification':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.schema.modification/com.soyatec.database.menu.schema.action.modification,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseModificationAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.schema.modification/com.soyatec.database.menu.schema.action.modification,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseModificationAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.358
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.torque.mapping.import/com.soyatec.database.menu.torque.mapping.action.import':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.torque.mapping.import/com.soyatec.database.menu.torque.mapping.action.import,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseTorqueMappingImportAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.torque.mapping.import/com.soyatec.database.menu.torque.mapping.action.import,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseTorqueMappingImportAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.358
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.hibernate.xdoclet/com.soyatec.database.menu.hibernate.xdoclet.action':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.hibernate.xdoclet/com.soyatec.database.menu.hibernate.xdoclet.action,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseHibernateXDocletAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.hibernate.xdoclet/com.soyatec.database.menu.hibernate.xdoclet.action,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseHibernateXDocletAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.359
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.menu.connection.modification/com.soyatec.database.menu.connection.action.modification':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.connection.modification/com.soyatec.database.menu.connection.action.modification,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseModificationAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.connection.modification/com.soyatec.database.menu.connection.action.modification,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseModificationAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.359
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.menu.connection.refresh/com.soyatec.database.menu.connection.action.refresh':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.connection.refresh/com.soyatec.database.menu.connection.action.refresh,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseRefreshAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.connection.refresh/com.soyatec.database.menu.connection.action.refresh,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseRefreshAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.359
+!MESSAGE Conflict for 'com.soyatec.uml.project.open':
+HandlerActivation(commandId=com.soyatec.uml.project.open,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.uml.project.OpenUnuesdDependenciesDiagramAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=com.soyatec.uml.project.open,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.uml.project.OpenDiagramAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.359
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.menu.data.modification/com.soyatec.database.menu.data.action.modification':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.data.modification/com.soyatec.database.menu.data.action.modification,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseModificationAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.data.modification/com.soyatec.database.menu.data.action.modification,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseModificationAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.359
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.menu.schema.refresh/com.soyatec.database.menu.schema.action.refresh':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.schema.refresh/com.soyatec.database.menu.schema.action.refresh,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseRefreshAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.schema.refresh/com.soyatec.database.menu.schema.action.refresh,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseRefreshAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.359
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.edepend.packageroot.open.contribution2/com.soyatec.edepend.actions.open..class.cycle.explorer':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.edepend.packageroot.open.contribution2/com.soyatec.edepend.actions.open..class.cycle.explorer,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.edepend.OpenClassCycleExplorerAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.edepend.packageroot.open.contribution2/com.soyatec.edepend.actions.open..class.cycle.explorer,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.edepend.OpenPackageCycleExplorerAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.359
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.uml.project.open.contribution/com.soyatec.edepend.actions.open..class.cycle.explorer':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.uml.project.open.contribution/com.soyatec.edepend.actions.open..class.cycle.explorer,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.edepend.OpenPackageCycleExplorerAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.uml.project.open.contribution/com.soyatec.edepend.actions.open..class.cycle.explorer,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.edepend.OpenClassCycleExplorerAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.359
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.menu.data.reverse/com.soyatec.database.menu.data.action.reverse':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.data.reverse/com.soyatec.database.menu.data.action.reverse,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseReverseAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.data.reverse/com.soyatec.database.menu.data.action.reverse,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseReverseAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.360
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.menu.bookmark.index/com.soyatec.database.menu.bookmark.action.index':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.bookmark.index/com.soyatec.database.menu.bookmark.action.index,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseIndexAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.bookmark.index/com.soyatec.database.menu.bookmark.action.index,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseIndexAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-06-01 19:08:34.360
+!MESSAGE Conflict for 'AUTOGEN:::com.soyatec.database.menu.connection.reverse/com.soyatec.database.menu.connection.action.reverse':
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.connection.reverse/com.soyatec.database.menu.connection.action.reverse,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseReverseAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::com.soyatec.database.menu.connection.reverse/com.soyatec.database.menu.connection.action.reverse,
+	handler=ActionDelegateHandlerProxy(null,com.soyatec.database.external.DatabaseReverseAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@60e390),sourcePriority=16384)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 0 2010-06-01 19:08:38.369
+!MESSAGE Error parsing profile D:\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\PlatformProfile.profile\1238439826078.profile.
+!STACK 0
+java.io.IOException: XML document structures must start and end within the same entity.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:459)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:445)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.restore(SimpleProfileRegistry.java:337)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:223)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:180)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:171)
+	at org.eclipse.equinox.internal.provisional.p2.ui.operations.ProvisioningUtil.getProfile(ProvisioningUtil.java:161)
+	at org.eclipse.equinox.internal.p2.ui.sdk.ProvSDKUIActivator.getSelfProfileId(ProvSDKUIActivator.java:169)
+	at org.eclipse.equinox.internal.p2.ui.sdk.AutomaticUpdateScheduler.<init>(AutomaticUpdateScheduler.java:59)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:170)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(WorkbenchPlugin.java:267)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:263)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getExecutableExtension(EarlyStartupRunnable.java:117)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench$54.run(Workbench.java:2169)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 0 2010-06-01 19:08:38.578
+!MESSAGE Error parsing profile D:\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\PlatformProfile.profile\1238439826078.profile.
+!STACK 0
+java.io.IOException: XML document structures must start and end within the same entity.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:459)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry$Parser.parse(SimpleProfileRegistry.java:445)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.restore(SimpleProfileRegistry.java:337)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:223)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:180)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:171)
+	at org.eclipse.equinox.internal.p2.engine.SurrogateProfileHandler.createProfile(SurrogateProfileHandler.java:145)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.createSurrogateProfile(SimpleProfileRegistry.java:191)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:182)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:171)
+	at org.eclipse.equinox.internal.provisional.p2.ui.operations.ProvisioningUtil.getProfile(ProvisioningUtil.java:161)
+	at org.eclipse.equinox.internal.p2.ui.sdk.ProvSDKUIActivator.getSelfProfileId(ProvSDKUIActivator.java:169)
+	at org.eclipse.equinox.internal.p2.ui.sdk.AutomaticUpdateScheduler.<init>(AutomaticUpdateScheduler.java:59)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:170)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(WorkbenchPlugin.java:267)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:263)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getExecutableExtension(EarlyStartupRunnable.java:117)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench$54.run(Workbench.java:2169)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.ui.sdk 2 0 2010-06-01 19:08:38.994
+!MESSAGE Could not locate the running profile instance

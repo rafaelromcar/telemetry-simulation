@@ -1,0 +1,26 @@
+Tiempo de carrera
+Distancia recorrida
+
+Velocidad
+Indicador de marcha
+RPM
+Temperatura del motor*
+Nivel de combustible*
+
+Pedal acelerador
+Pedal freno
+Pedal embrague
+
+Ejes X,Y,Z
+
+Para cada rueda:
+
+Temperatura---
+Fuerza lateral---
+Fuerza frontal
+Angulo de giro
+Carga vertical
+Velocidad-----
+
+*No existe este dato en el simulador, 
+pero en la realidad necesitariamos medirlo.
